@@ -1,8 +1,9 @@
 .playing-box {
-  padding: 10px;
+  display: flex;
   box-sizing: border-box;
-  text-align: center;
   font-family: sans-serif;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .box1,

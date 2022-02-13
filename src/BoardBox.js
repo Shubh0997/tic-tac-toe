@@ -46,7 +46,7 @@ class BoardBox extends React.Component {
       return;
     }
     this.boxStatus.selected = true;
-    this.boxStatus.symbol = this.getSymbol();
+    this.boxStatus.symbol = this.boxStatus.symbol || this.getSymbol();
     this.props.registerTurn(e.target.id, this.boxStatus.symbol);
   };
 
