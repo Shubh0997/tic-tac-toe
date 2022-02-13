@@ -1,0 +1,12 @@
+.playing-board {
+  display: grid;
+  /* flex: 0 0 10%; */
+  margin: 1rem auto 1rem;
+  width: 600px;
+  /* min-width: 200px; */
+  max-width: 80%;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: grey;
+  padding: 1rem;
+  border-radius: 1rem;
+}

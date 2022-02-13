@@ -1,0 +1,24 @@
+.playing-box {
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.box1,
+.box2,
+.box4,
+.box5,
+.box7,
+.box8 {
+  border-right: 5px solid whitesmoke;
+}
+
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9 {
+  border-top: 5px solid whitesmoke;
+}

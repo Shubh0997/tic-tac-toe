@@ -1,0 +1,9 @@
+.prompt {
+  flex: 0 0 20%;
+  /* margin-top: 1rem; */
+  margin: auto 1rem;
+  align-self: flex-start;
+  background-color: gray;
+  padding: 1rem;
+  border-radius: 1rem;
+}
